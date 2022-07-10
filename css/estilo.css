@@ -3,25 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 section{
-    margin-left: 128px;
+    margin-left: 188px;
     max-width: 960px;
-
+   
 }
 
 .retangle{
     position: absolute;
-    margin-top: 8px;
     margin-bottom: 16px;
     width: 960px;
-    
 }
 .luz{
     position: absolute;
-    
 }
-
 article{
     background-color: rgb(30, 156, 30);
     max-width: 960px;
@@ -29,25 +24,27 @@ article{
     margin-top: 36px;
     display:flex;
     justify-content: center;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
     position: relative;
-    
+}
+.people{
+    background-color: cadetblue;
+    padding:32px;
 }
 p_intro{
     font-size: 20px;
-    color:blue;
-    margin-top: 190px;
+    color: white;
+    margin-top: 180px;
+    margin-left: 20px;
     font-family:"poppins", sans-serif;
     position: absolute;
     width: 900px;
-    
 }
 header{
     font-size: 48px;
     color:white;
     font-family: "roboto",sans-serif;
     font-weight: 400;
-
 }
 h2{
     font-size: 28px;
@@ -57,17 +54,15 @@ h2{
     justify-content:end;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 32px;
-    
 }
 .happy_hour{
     background-color: rgb(187, 216, 241);
     width: 580px;
     border-radius: 10px;
-    height: 280px;
+    margin-left: 20px;
     padding: 20px;
-    margin-top: 360px;
+    margin-top: 352px;
 }
-
  h3{
     font-size: 24px;
     color: green;
@@ -75,7 +70,9 @@ h2{
     margin-left: 16px;
     font-family: "poppins", sans-serif;
  }
- 
+ .happy{
+    color: blue;
+ }
  p{
     font-size: 20px;
     color: green;
@@ -83,24 +80,20 @@ h2{
     margin-top: 16px;
     margin-left: 16px;
     font-family: "poppins",sans-serif;
-
  }
-
  .fonte{
-    width: 280px;
-    margin-top: 48px;
+    width: 270px;
+    margin-top: 32px;
     position: absolute;
-    top: 72%;
-    left: 60%;
-    margin-right: 16px;
-
+    top: 71%;
+    right: 20%;
+    border-radius: 8px;
 }
 .course{
     color: blue;
     display: flex;
     justify-content:left;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 .local{
     color: black;
@@ -111,16 +104,16 @@ h2{
     width: 420px;
     padding: 16px;
     line-height: 12px;
+    margin-bottom: 20px;
 }
- 
 .profission_x{
     background-color:rgb(153, 212, 212); 
     display: flex;
     justify-content: center;
     padding: 12px;
-    width: 900px;
+    width: 880px;
     margin-top: 44px;
-
+    margin-left: 28px;
 }
 .course_container{
     display: flex;
@@ -130,27 +123,20 @@ h2{
 .exp{
     margin-top: 32px;
     justify-content: center;
-    
 }
  .emp{
     justify-content: left;
     margin-left: 16px;
     font-size: 18px;
-
  }
-
  strong{
     color: blue;
     font-size: 18px;
     align-items: center;
-
  }
  .exp_title{
     background-color: rgb(14, 14, 83);
-    margin-top: 12px;
-    line-height: 8px;
-    
-
+    margin-top: 0px;
  }
  .expr{
     color: white;
@@ -159,53 +145,51 @@ h2{
     width: 500px;
     display: flex;
     justify-content: center;
-     
  }
-
  .emp{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
  }
- 
  .emp_e{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     color: black;
     margin-bottom: 16px;
+    width: 600px;
  }
-
  .exp_pr{
     background-color: rgb(221, 221, 173);
     position:absolute;
-    top: 200%;
-    left: 0%;
-    margin-left: 128px;
-    width: 900px;
+    top: 195%;
+    left: 14%;
+    width: 960px;
     margin-top: 32px;
-
+    
  }
-
  .work{
     position: absolute;
     left: 80%;
 }
-
-
  ul{
-
     display: flex;
     justify-content:end;
     position: absolute;
-    left: 38%;
-    top: 15%;
-    gap: 40px;
+    left: 45%;
+    top: 18%;
+    gap: 36px;
     font-size: 16px;
     font-family: "poppins" , sans-serif;
     text-decoration: none;
-    
-    
+    list-style: none;
+    background-color: rgb(167, 236, 236);
+    padding: 6px;
  }
-
+nav ul a:hover{
+    color: yellow;
+    transition: all 360ms;
+    background-color: blue;
+    padding: 6px;
+}
  li{
     color:rgb(28, 32, 231);
  }
@@ -214,55 +198,83 @@ h2{
     text-decoration: none;
  }
 
-.bike{
+.bike_hs{
+    margin-left: 44px;
+    top:428%;
     position: absolute;
     width: 280px;
-    top: 410%;
-    
-} 
-
+}
 .exercices{
     position: absolute;
-    margin-top: 1400px;
+    margin-top: 1420px;
     color: midnightblue;
     margin-left: 330px;
 }
-
 h3{
     font-size: 20px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
- 
 .exer_body{
-    font-size: 16px;
+    font-size: 20px;
     color:darkblue;
-   
-
-    
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 32px;
 }
 .pedal{
     color: darkblue;
     margin-top: 44px;
-}
+    font-size: 24px;
 
+}
 footer{
     position: absolute;
-    bottom: -2480px;
+    top:510%;
     background-color: darkblue;
-    left: 0;
-    right: 0;
     width: 960px;
     padding: 3vh;
-    margin-left: 128px;
-    color: chartreuse;
+    margin-left: 188px;
+    display: flex;
+    gap: 140px;
+}
+.telefone{
+    font-family: "times new roman, sans serif";
+    color: white;
     font-size: 20px;
-    
+    margin-left: 20px;
+}
+.email{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.instag{
+     right: 21%;
+     position: absolute;
+}
+.insta{
+    font-family: 'Times New Roman', Times, serif;
+    color:greenyellow;
+    font-size: 20px;
 }
 p4{
-    display: flex;
-    justify-content: end;
     color: aqua;
-    font-size: 12px;
-
+    font-size: 20px;
 }
+.momentos{
+    margin-top: 1780px;
+    color:black;
+    position: absolute;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
+.moments{
+    margin-top: 1820px;
+    position: absolute;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    width: 900px;
+}
+
