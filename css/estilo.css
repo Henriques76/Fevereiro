@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  margin-left: 0.4rem;
+  max-width: 39rem;
+}
+
+article {
+  background-color: cadetblue;
+  padding: 0.4rem;
+  max-width: 39rem;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "roboto", sans-serif;
+  font-size: 2rem;
+  color: white;
+  padding: 0.4rem;
+}
+
+.perfil {
+  background-color: cadetblue;
+  padding: 1.2rem;
+  max-width: 39rem;
+  margin-block: 1rem;
+}
+
+p_intro {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+}
+
+.happy_hour {
+  background-color: rgb(187, 216, 241);
+  max-width: 39rem;
+  border-radius: 0.6rem;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+}
+.happy_hour .happy {
+  font-family: "roboto", sans-serif;
+  color: blue;
+  font-size: 1.4rem;
+}
+.happy_hour p {
+  font-size: 1.2rem;
+  color: rgb(5, 84, 5);
+  margin-top: 1.6rem;
+  font-family: "poppins", sans-serif;
+}
+.happy_hour .fonte {
+  max-width: 24rem;
+  height: 20rem;
+  border-radius: 0.6rem;
+}
+
+.profission_x {
+  background-color: rgb(153, 212, 212);
+  display: flex;
+  justify-content: center;
+  padding: 0.4rem;
+  max-width: 39rem;
+  margin-top: 0.4rem;
+  margin-bottom: 0.2rem;
+  border-radius: 0.4rem;
+  color: rgb(5, 84, 5);
+  font-family: "roboto" sans-serif;
+}
+
+.course {
+  color: blue;
+  font-size: 1.2rem;
+  font-family: "roboto", sans-serif;
+}
+
+.local {
+  color: black;
+  font-size: 1.2rem;
+  font-family: "roboto", sans-serif;
+}
+
+.curso {
+  max-width: 39rem;
+  background-color: rgb(153, 212, 212);
+  border: 0.1rem solid blue;
+  border-radius: 0.6rem;
+}
+.curso h2 {
+  font-size: 1.4rem;
+}
+
+.course_container {
+  display: flex;
+  justify-content: space-between;
+  border: 0.1rem solid blue;
+  border-radius: 0.6rem;
+}
+
+.course_x {
+  width: 18rem;
+  padding: 0.6rem;
+  line-height: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.exp_profissional {
+  max-width: 39rem;
+  background-color: rgb(153, 212, 212);
+  padding: 0.6rem;
+  margin-top: 0.6rem;
+  border-radius: 0.6rem;
+}
+
+.expr {
+  font-family: "roboto", sans-serif;
+}
+
+article {
+  background-color: cadetblue;
+}
+
+.emp {
+  font-size: 1.2rem;
+  font-family: "roboto", sans-serif;
+}
+
+.emp_e {
+  font-size: 1.2rem;
+  font-family: "roboto", sans-serif;
+  font-size: 1.2rem;
+  margin-block: 1.6rem;
+}
+
+strong {
+  font-family: "roboto", sans-serif;
+  color: blue;
+  font-size: 1.2rem;
+}
+
+.exercices {
+  max-width: 39rem;
+  border: 0.1rem solid black;
+  border-radius: 0.6rem;
+  margin-top: 0.6rem;
+  padding: 0.4rem;
+}
+
+.bike_hs {
+  max-width: 24rem;
+  height: 20rem;
+  border-radius: 0.6rem;
+}
+
+.pedal {
+  color: rgb(24, 24, 121);
+  font-size: 1.4rem;
+  font-family: "roboto", sans-serif;
+  margin-top: 1rem;
+}
+
+.exer_body {
+  font-size: 1.2rem;
+  font-family: "poppins", sans-serif;
+  color: rgb(5, 84, 5);
+  margin-top: 0.6rem;
+  font-weight: 400;
+}
+
+.musical {
+  max-width: 39rem;
+  padding: 0.4rem;
+  border: 0.1rem solid black;
+  margin-top: 0.6rem;
+  background-color: rgb(153, 212, 212);
+  border-radius: 0.6rem;
+}
+.musical h2 {
+  font-family: "roboto", sans-serif;
+  font-size: 1.4rem;
+  margin-bottom: 0.6rem;
+}
+.musical img {
+  max-width: 20rem;
+  height: 14rem;
+}
+.musical p {
+  font-size: 1.2rem;
+  font-family: "roboto", sans-serif;
+}
+.musical .par__2 {
+  margin-block: 0.4rem;
+}
+
+footer {
+  background-color: rgb(24, 24, 121);
+  padding: 0.6rem;
+  margin-top: 0.6rem;
+  border-top: 0.2rem solid red;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+}
+
+.telefone {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "roboto", sans-serif;
+}
+
+.email {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "roboto", sans-serif;
+}
+
+.instag {
+  width: 1rem;
+  height: 1rem;
+}
+
+.insta {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "roboto", sans-serif;
+  margin-left: 0.6rem;
+}
+
+@media (min-width: 600px) {
+  section {
+    margin-left: 4rem;
+    max-width: 100rem;
+  }
+  article {
+    background-color: cadetblue;
+    padding: 0.4rem;
+    max-width: 100rem;
+    display: flex;
+    justify-content: center;
+  }
+  h1 {
+    font-family: "roboto", sans-serif;
+    font-size: 2.4rem;
+    color: white;
+    padding: 0.4rem;
+  }
+  .perfil {
+    background-color: cadetblue;
+    padding: 1.8rem;
+    max-width: 100rem;
+    margin-block: 2em;
+  }
+  p_intro {
+    font-size: 1.6rem;
+    color: white;
+    font-family: "poppins", sans-serif;
+  }
+  .happy_hour {
+    background-color: rgb(187, 216, 241);
+    max-width: 100rem;
+    border-radius: 0.6rem;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+  }
+  .happy_hour .happy {
+    font-family: "roboto", sans-serif;
+    color: blue;
+    font-size: 2rem;
+    grid-column: 1/3;
+  }
+  .happy_hour p {
+    font-size: 1.6rem;
+    color: rgb(5, 84, 5);
+    margin-top: 1.6rem;
+    font-family: "poppins", sans-serif;
+    max-width: 50rem;
+  }
+  .happy_hour .fonte {
+    max-width: 30rem;
+    height: 24rem;
+    border-radius: 0.6rem;
+  }
+  .curso {
+    max-width: 100rem;
+    background-color: rgb(153, 212, 212);
+    border-radius: 0.6rem;
+    border: 0.1rem solid blue;
+    margin-bottom: 0.1rem;
+  }
+  .curso h2 {
+    font-size: 2rem;
+    font-family: "roboto", sans-serif;
+  }
+  .profission_x {
+    background-color: rgb(153, 212, 212);
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem;
+    max-width: 10rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.2rem;
+    border-radius: 0.4rem;
+    color: rgb(5, 84, 5);
+    font-family: "roboto", sans-serif;
+  }
+  .course {
+    color: blue;
+    font-size: 1.6rem;
+    font-family: "roboto", sans-serif;
+  }
+  .local {
+    color: black;
+    font-size: 1.6rem;
+    font-family: "roboto", sans-serif;
+  }
+  .course_container {
+    display: flex;
+    justify-content: space-between;
+    border: 0.1rem solid blue;
+    border-radius: 0.6rem;
+  }
+  .course_x {
+    width: 36rem;
+    padding: 1.2rem;
+    line-height: 4rem;
+    margin-bottom: 2rem;
+  }
+  .exp_profissional {
+    max-width: 100rem;
+    background-color: rgb(153, 212, 212);
+    padding: 1.2rem;
+    margin-top: 1.2rem;
+    line-height: 2rem;
+    border-radius: 0.6rem;
+  }
+  .exp_profissional article {
+    background-color: cadetblue;
+  }
+  .exp_profissional .emp {
+    font-size: 1.6rem;
+    font-family: "roboto", sans-serif;
+  }
+  .exp_profissional .emp_e {
+    font-size: 1.6rem;
+    font-family: "roboto", sans-serif;
+  }
+  strong {
+    font-family: "roboto", sans-serif;
+    color: blue;
+    font-size: 1.6rem;
+  }
+  .exercices {
+    max-width: 100rem;
+    border: 0.1rem solid black;
+    border-radius: 1.2rem;
+    margin-top: 1.2rem;
+    padding: 0.8rem;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+  }
+  .bike_hs {
+    max-width: 30rem;
+    height: 24rem;
+    border-radius: 0.6rem;
+  }
+  .pedal {
+    color: rgb(24, 24, 121);
+    font-size: 1.6rem;
+    font-family: "roboto", sans-serif;
+    grid-column: 1/3;
+  }
+  .exer_body {
+    font-size: 1.6rem;
+    font-family: "poppins", sans-serif;
+    color: rgb(5, 84, 5);
+    margin-top: 1.2rem;
+  }
+  .musical {
+    max-width: 100rem;
+    padding: 0.8rem;
+    border: 0.1rem solid black;
+    margin-top: 1.2rem;
+    background-color: rgb(153, 212, 212);
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+  }
+  .musical h2 {
+    font-family: "roboto", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    grid-column: 1/3;
+  }
+  .musical img {
+    max-width: 32rem;
+    height: 26rem;
+    grid-row: 2/4;
+  }
+  .musical p {
+    font-size: 1.6rem;
+    font-family: "roboto", sans-serif;
+    max-width: 48rem;
+  }
+  .musical .par__2 {
+    margin-block: 0.8rem;
+    grid-row: 3/4;
+    max-width: 48rem;
+  }
+  .musical .par__3 {
+    grid-column: 2/3;
+    max-width: 48rem;
+  }
+  footer {
+    max-width: 100rem;
+    background-color: rgb(24, 24, 121);
+    height: 8vh;
+    padding: 0.6rem;
+    margin-top: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .telefone {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+  }
+  .email {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "roboto", sans-serif;
+    font-weight: 300;
+  }
+  .instag {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+  .insta {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "roboto", sans-serif;
+    margin-left: 1rem;
+    font-weight: 300;
+  }
+}/*# sourceMappingURL=estilo.css.map */

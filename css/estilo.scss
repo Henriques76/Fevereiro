@@ -1,0 +1,523 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+//cores
+$cor-article: cadetblue;
+$cor-perfil:  cadetblue;
+$cor-happyhour: rgb(187, 216, 241);
+$background-curso:rgb(153, 212, 212); 
+
+//fontes
+ $cor-texto-1:white;
+ $cor-texto-2:blue;
+ $cor-texto-3:rgb(5, 84, 5);
+ $cor-texto-4:black;
+
+ $font-size-100: 1.2rem;
+ $font-size-200: 1.4rem;
+ $font-size-300: 1.6rem;
+ $font-size-400: 2rem;
+ $font-size-500: 2.4rem;
+
+ $font-primary: 'roboto',sans-serif;
+ $font-style: "poppins", sans-serif;
+
+section{
+    margin-left: .4rem;
+    max-width: 39rem;
+}
+
+article{
+    background-color: $cor-article;
+    padding: .4rem;
+    max-width: 39rem;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family:$font-primary;
+    font-size: 2rem;
+    color: $cor-texto-1;
+    padding: .4rem;
+}
+
+.perfil{
+    background-color: $cor-perfil;
+    padding:1.2rem;
+    max-width: 39rem;
+    margin-block: 1rem;
+}
+
+p_intro{
+    font-size: $font-size-100;
+    color: $cor-texto-1;
+    font-family: $font-style;
+    font-weight: 400;
+}
+
+.happy_hour{
+    background-color: $cor-happyhour;
+    max-width: 39rem;
+    border-radius: .6rem;
+    padding: .6rem;
+   margin-bottom: 1rem;
+
+   .happy{
+        font-family:$font-primary;
+        color: $cor-texto-2;
+        font-size: $font-size-200;
+   }
+
+p{
+    font-size: $font-size-100;
+    color: $cor-texto-3;
+    margin-top: 1.6rem;
+    font-family: $font-style;
+}
+
+.fonte{
+    max-width: 24rem;
+    height: 20rem;
+    border-radius: .6rem;
+}
+}
+
+.profission_x{
+    background-color: $background-curso; 
+    display: flex;
+    justify-content: center;
+    padding: .4rem;
+    max-width: 39rem;
+    margin-top: .4rem;
+    margin-bottom: .2rem;;
+    border-radius: .4rem;
+    color: $cor-texto-3;
+    font-family:'roboto'sans-serif;
+    }
+
+.course{
+    color: $cor-texto-2;
+    font-size: $font-size-100; 
+    font-family: $font-primary;
+}
+
+.local{
+    color: $cor-texto-4;
+    font-size: $font-size-100;
+    font-family: 'roboto',sans-serif;
+}
+
+.curso{
+    max-width: 39rem;
+    background-color:$background-curso;
+    border: .1rem solid blue;
+    border-radius: .6rem;
+
+    h2{
+        font-size:$font-size-200;
+    }
+}
+
+.course_container{
+    display: flex;
+    justify-content: space-between;
+    border: .1rem solid blue;
+    border-radius: .6rem;
+}
+
+.course_x{
+    width: 18rem;
+    padding: .6rem;
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.exp_profissional{
+    max-width: 39rem;
+    background-color: $background-curso; 
+    padding: .6rem;
+    margin-top: .6rem;;
+    border-radius: .6rem;
+}
+
+.expr{
+    font-family: $font-primary;
+}
+    
+article{
+    background-color: $cor-article; 
+    }
+
+.emp{
+    font-size: $font-size-100;
+    font-family: $font-primary;
+    }
+
+.emp_e{
+    font-size: $font-size-100;
+    font-family: $font-primary;
+    font-size: 1.2rem;
+    margin-block: 1.6rem;
+    }
+    
+strong{
+    font-family:$font-primary;
+    color: $cor-texto-2;
+    font-size: $font-size-100;
+}
+
+.exercices{
+    max-width: 39rem;
+    border: .1rem solid black;
+    border-radius: .6rem;
+    margin-top: .6rem;
+    padding: .4rem;
+}
+
+.bike_hs{
+    max-width: 24rem;
+    height: 20rem;
+    border-radius: .6rem;
+}
+
+.pedal{
+    color:rgb(24, 24, 121);
+    font-size: $font-size-200;
+    font-family:$font-primary;
+    margin-top: 1rem;
+}
+
+.exer_body{
+    font-size: $font-size-100;
+    font-family: $font-style;
+    color: rgb(5, 84, 5);
+    margin-top: .6rem;
+    font-weight: 400;
+}
+
+.musical{
+    max-width: 39rem;
+    padding: .4rem;
+    border: .1rem solid black;
+    margin-top: .6rem;
+    background-color: $background-curso; 
+    border-radius: .6rem;
+
+    h2{
+        font-family:$font-primary;
+        font-size: $font-size-200;
+        margin-bottom: .6rem;
+    }
+
+    img{
+        max-width: 20rem;
+        height: 14rem;
+    }
+
+    p{
+        font-size: 1.2rem;
+        font-family:$font-primary;
+    }
+
+    .par__2{
+        margin-block: .4rem;
+    }
+}
+
+footer{
+    background-color: rgb(24, 24, 121) ;
+    padding: .6rem;
+    margin-top: .6rem;
+    border-top: .2rem solid red;
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+}
+.telefone{
+    font-size: 1.2rem;
+    color:$cor-texto-1;
+    font-family:$font-primary;
+}
+.email{
+    font-size: 1.2rem;
+    color: $cor-texto-1;
+    font-family:$font-primary;
+}
+
+.instag{
+    width: 1rem;
+    height: 1rem;
+}
+
+.insta{
+    font-size: 1.2rem;
+    color: $cor-texto-1;
+    font-family:$font-primary;
+    margin-left: .6rem;
+}
+
+@media (min-width: 600px){
+
+    section{
+        margin-left: 4rem;
+        max-width: 100rem;
+    }
+    
+    article{
+        background-color: $cor-article;
+        padding: .4rem;
+        max-width: 100rem;
+        display: flex;
+        justify-content: center;
+    }
+    h1{
+        font-family: $font-primary;
+        font-size: $font-size-500;
+        color: $cor-texto-1;
+        padding: .4rem;
+    }
+
+    .perfil{
+        background-color: $cor-perfil;
+        padding:1.8rem;
+        max-width: 100rem;
+        margin-block: 2em;
+    }
+    
+    p_intro{
+        font-size: $font-size-300;
+        color: $cor-texto-1;
+        font-family:$font-style;
+    }
+
+    .happy_hour{
+        background-color: $cor-happyhour;
+        max-width: 100rem;
+        border-radius: .6rem;
+        padding: 1.2rem;
+        margin-bottom: 2rem;
+        display: grid;
+        grid-template-columns: 1fr,1fr,1fr;
+        grid-template-rows: 1fr, 1fr,1fr;
+
+       .happy{
+            font-family: $font-primary;
+            color: $cor-texto-2;
+            font-size: $font-size-400;
+            grid-column: 1/3;
+       }
+    
+        p{
+            font-size: 1.6rem;
+            color: rgb(5, 84, 5);
+            margin-top: $font-size-300;
+            font-family: $font-style;
+            max-width: 50rem;
+        }  
+    
+    .fonte{
+        max-width: 30rem;
+        height: 24rem;
+        border-radius: .6rem;
+        }
+    }
+
+    .curso{
+        max-width: 100rem;
+        background-color: $background-curso;
+        border-radius: .6rem; 
+        border: .1rem solid blue;
+        margin-bottom: .1rem;
+
+        h2{
+            font-size: $font-size-400;
+            font-family: $font-primary;
+            
+        }
+    }
+
+    .profission_x{
+        background-color:$background-curso; 
+        display: flex;
+        justify-content: center;
+        padding: .8rem;
+        max-width: 10rem;
+        margin-top: .8rem;
+        margin-bottom: .2rem;;
+        border-radius: .4rem;
+        color: rgb(5, 84, 5);
+        font-family:$font-primary;
+        }
+    
+    .course{
+        color: $cor-texto-2;
+        font-size: $font-size-300; 
+        font-family: $font-primary;
+    }
+    .local{
+        color: $cor-texto-4;
+        font-size: 1.6rem;
+        font-family:$font-primary;
+    }
+    
+    .course_container{
+        display: flex;
+        justify-content: space-between;
+        border: .1rem solid blue;
+        border-radius: .6rem;
+    }
+    
+    .course_x{
+        width: 36rem;
+        padding: 1.2rem;
+        line-height: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .exp_profissional{
+        max-width: 100rem;
+        background-color: $background-curso; 
+        padding: 1.2rem;
+        margin-top: 1.2rem;
+        line-height: 2rem;
+        border-radius: .6rem;
+        
+        article{
+            background-color: $cor-article; 
+        }
+    
+        .emp{
+            font-size: $font-size-300;
+            font-family: $font-primary;
+            }
+        .emp_e{
+            font-size: $font-size-300;
+            font-family: $font-primary;
+            }
+        }
+    
+    strong{
+        font-family: $font-primary;
+        color: $cor-texto-2;
+        font-size: $font-size-300;
+    }
+
+    .exercices{
+        max-width: 100rem;
+        border: .1rem solid black;
+        border-radius: 1.2rem;
+        margin-top: 1.2rem;
+        padding: .8rem;
+        display: grid;
+        grid-template-columns: 1fr, 1fr,1fr;
+        grid-template-rows: 1fr,1fr,1fr;
+    }
+    
+    .bike_hs{
+        max-width: 30rem;
+        height: 24rem;
+        border-radius: .6rem;
+    }
+    
+    .pedal{
+        color:rgb(24, 24, 121);
+        font-size: $font-size-300;
+        font-family:$font-primary;
+        grid-column: 1/3;
+    }
+    
+    .exer_body{
+        font-size: 1.6rem;
+        font-family: $font-style;
+        color: $cor-texto-3;
+        margin-top: 1.2rem;
+    }
+
+    .musical{
+        max-width: 100rem;
+        padding: .8rem;
+        border: .1rem solid black;
+        margin-top: 1.2rem;
+        background-color: $background-curso; 
+        display: grid;
+        grid-template-columns: 1fr, 1fr,1fr;
+        grid-template-rows: 1fr,1fr,1fr;
+
+        h2{
+            font-family: $font-primary;
+            font-size: $font-size-400;
+            margin-bottom: 1.2rem;
+            grid-column: 1/3;
+        }
+    
+        img{
+            max-width: 32rem;
+            height: 26rem;
+            grid-row: 2/4;
+        }
+    
+        p{
+            font-size: $font-size-300;
+            font-family:$font-primary;
+            max-width: 48rem;
+        }
+
+        .par__2{
+            margin-block: .8rem;
+            grid-row: 3/4;
+            max-width: 48rem;
+        }
+
+        .par__3{
+            grid-column: 2/3;
+            max-width: 48rem;
+        }
+    }
+    
+    footer{
+        max-width: 100rem;
+        background-color: rgb(24, 24, 121) ;
+        height: 8vh;
+        padding: .6rem;
+        margin-top: .6rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .telefone{
+        font-size: 1.2rem;
+        color: $cor-texto-1;
+        font-family: $font-primary;
+        font-weight: 300;
+    }
+
+    .email{
+        font-size: 1.2rem;
+        color: $cor-texto-1;
+        font-family:$font-primary;
+        font-weight: 300;
+    }
+    
+    .instag{
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+    
+    .insta{
+        font-size: 1.2rem;
+        color: $cor-texto-1;
+        font-family: $font-primary;
+        margin-left: 1rem;
+        font-weight: 300;
+    }
+}
